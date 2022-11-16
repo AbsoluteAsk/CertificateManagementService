@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "deploy", "deploy", "{A7288093-4B3F-401C-8595-48A1A2709F81}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{D7A8D254-CEBB-47C3-8D03-6CF4DA3DB421}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "infrastructure", "infrastructure", "{4E31C1E3-02DB-48BB-A20E-434430EBF063}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{FCDDCB77-B83E-4F7A-AD82-BBAFE8820196}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{CDDE94E4-0D88-4BD7-AF73-CA17F4DA95CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odyssey.DiagnosticCertificateService.CertificateGenerator", "Odyssey.DiagnosticCertificateService.CertificateGenerator\Odyssey.DiagnosticCertificateService.CertificateGenerator.csproj", "{3B845F61-EA0D-4928-A962-B40CF1CE8704}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odyssey.DiagnosticCertificateService.AutoAuthEnrollment", "Odyssey.DiagnosticCertificateService.AutoAUthEnrollment\Odyssey.DiagnosticCertificateService.AutoAuthEnrollment.csproj", "{2C7D59E2-3CE0-406C-9C25-9F8EEEF23060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Odyssey.DiagnosticCertificateService.WebApi", "Odyssey.DiagnosticCertificateService.WebApi\Odyssey.DiagnosticCertificateService.WebApi.csproj", "{326DA45E-89A7-4137-8B4D-A0146907C50B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B845F61-EA0D-4928-A962-B40CF1CE8704}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B845F61-EA0D-4928-A962-B40CF1CE8704}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B845F61-EA0D-4928-A962-B40CF1CE8704}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B845F61-EA0D-4928-A962-B40CF1CE8704}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C7D59E2-3CE0-406C-9C25-9F8EEEF23060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C7D59E2-3CE0-406C-9C25-9F8EEEF23060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C7D59E2-3CE0-406C-9C25-9F8EEEF23060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C7D59E2-3CE0-406C-9C25-9F8EEEF23060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{326DA45E-89A7-4137-8B4D-A0146907C50B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{326DA45E-89A7-4137-8B4D-A0146907C50B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{326DA45E-89A7-4137-8B4D-A0146907C50B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{326DA45E-89A7-4137-8B4D-A0146907C50B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4E31C1E3-02DB-48BB-A20E-434430EBF063} = {D7A8D254-CEBB-47C3-8D03-6CF4DA3DB421}
+		{CDDE94E4-0D88-4BD7-AF73-CA17F4DA95CD} = {D7A8D254-CEBB-47C3-8D03-6CF4DA3DB421}
+		{3B845F61-EA0D-4928-A962-B40CF1CE8704} = {CDDE94E4-0D88-4BD7-AF73-CA17F4DA95CD}
+		{2C7D59E2-3CE0-406C-9C25-9F8EEEF23060} = {CDDE94E4-0D88-4BD7-AF73-CA17F4DA95CD}
+		{326DA45E-89A7-4137-8B4D-A0146907C50B} = {4E31C1E3-02DB-48BB-A20E-434430EBF063}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {637FC7F9-35AD-4D57-848E-153FEBD86AB3}
+	EndGlobalSection
+EndGlobal
